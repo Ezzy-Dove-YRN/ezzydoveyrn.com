@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ezzy Dove YRN is the best hiphop and RnB artist from Kenya.Check out my content on Spotify, Instagram, Youtube, TikTok and Facebook">
+  <title>Ezzy Dove YRN</title>
+  <link rel="shortcut icon" href="ezzy.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+    <div class="headingss">
+    <div class="logo"><img src="ezzy.jpg" alt="Logo"></div>
+    <div class="nameTitle">EZZY DOVE YRN <br><i>Musician</i></div>
+    <div class="MenuList">&#9776</div>
+    </div>
+  </header>
+  <div class="animationTwinnie"><span id="addName"></span>Ezzy Dove YRN is wishing you all a happy and Merry Christmass💖</div>
+  <main>
+    <p><b>Ezzy Dove YRN</b> is an upcoming Hiphop and RnB artist from Kenya. He is much of an Hiphop artist than RnB because most of his songs are either <b>drill</b> or <b>Trap</b>. Rapping is what he loves doing. <br>
+    Follow him at all his social media platforms <b>@Ezzy Dove YRN</b> <br>
+    use the links below👇 to reach him. <b>Thank You</b></p>
+    <div class="links">
+      <div>
+        FACEBOOK <br>
+        <a href="https://www.facebook.com/profile.php?id=61553073646222" target="_blank">@ezzydoveyrn</a>
+      </div>
+      <div>
+        INSTAGRAM <br>
+        <a href="https://www.instagram.com/ezzydoveyrn" target="_blank">@ezzydoveyrn</a>
+      </div>
+      <div>
+        YOUTUBE <br>
+        <a href="https://www.youtube.com/ezzydoveYRN" target="_blank">@ezzydoveyrn</a>
+      </div>
+      <div>
+        TIKTOK <br>
+        <a href="https://www.tiktok.com/@ezzydoveyrn" target="_blank">@ezzydoveyrn</a>
+      </div>
+    </div>
+    <div>
+      <b>HELP US WISH ALL YOUR FRIENDS MERRY Christmass💖 BY SHARING THIS LINK</b>
+      <input type="text" value="https://www.instagram.com/ezzydoveyrn" id="myLink">
+      <button onclick="INSTAGRAM()">Copy Text</button>
+    </div>
+    <p id="gfg"></p>
+  </main>
+  <br><br><br><br>
+  <footer>
+    <div>MERRY Christmass💖🎂</div>
+    <div>All Rights Reserved &copy;2023|Ezzy Dove YRN</div>
+
+  </footer>
+  <script>
+    function INSTAGRAM() {
+      let copyText = document.getElementById("myLink");
+      copyText.select();
+      document.execCommand("copy");
+      document.getElementById("gfg").innerHTML = "copied the text: " + copyText.value;
+    }
+  </script>
+  
+</body>
+</html>
